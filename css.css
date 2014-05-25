@@ -80,43 +80,79 @@
 	margin-left: 2px;
 }
 
-#block1 {
+.sky_blue {
 	background-color: #59ABE3;
 }
 
-#block2 {
+.sky_blue:hover {
+	background-color: #2980b9!important;
+}
+
+.red {
 	background-color: #CF000F;
 }
 
-#block3 {
+.red:hover {
+	background-color: #980000!important;
+}
+
+.orange {
 	background-color: #FF6600;
 }
 
-#block4 {
+.orange:hover {
+	background-color: #e67e22!important;
+}
+
+.teal {
 	background-color: #00B16A;
 }
 
-#block5 {
+.teal:hover {
+	background-color: #2ecc71!important;
+}
+
+.yellow {
 	background-color: #F7CA18;
 }
 
-#block6 {
+.yellow:hover {
+	background-color: #f39c12!important;
+}
+
+.midnight_blue {
 	background-color: #22313F;
 }
 
-#block7 {
+.midnight_blue:hover {
+	background-color: #f39c12!important;
+}
+
+.maddang {
 	background-color: #C8F7C5;
 }
 
-#block8 {
+.maddang:hover {
+	background-color: 99FF99!important;
+}
+
+.gray {
 	background-color: #ABB7B7;
 }
 
-#block9 {
+.gray:hover {
+	background-color: #7f8c8d!important;
+}
+
+.purple {
 	background-color: #8E44AD;
 }
 
-#word1 {
+.purple {
+	background-color: #9b59b6!important;
+}
+
+.word {
 	text-align: center;
 	font-size: 30px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -125,80 +161,7 @@
 	position: relative;
 }
 
-#word2 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word3 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word4 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word5 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word6 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word7 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word8 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-#word9 {
-	text-align: center;
-	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-top: 50%;
-	top: -30px;
-	position: relative;
-}
-
-
-.active {
+/*.active {
    background-color: #2980b9!important;
 }
 
@@ -234,9 +197,4 @@
 
 .active8 {
 	background-color: #9b59b6!important;
-}
-
-
-.red {
-	color: #ff0000;
-}
+}*/
