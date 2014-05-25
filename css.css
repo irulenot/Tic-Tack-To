@@ -1,5 +1,41 @@
-#line {
+/*.choice {
 	border: 1px solid;
-	height: 900px;
-	width: 210px;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 160;
+	width: 150;
+}*/
+
+.wrapper {
+	border: 1px solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 180px;
+	width: 590px;
+}
+
+#container {
+	border: 1px solid;
+	height: 600px;
+	width: 600px;
+}
+
+#choice1 {
+	border: 1px solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 160;
+	width: 150;
+}
+
+#choice2 {
+	border: 1px solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 160;
+	width: 150;
+}
+
+body {	
+	background: cadetblue;
 }
