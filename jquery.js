@@ -1,13 +1,26 @@
-// jquery
+$(document).ready(function(){
 
-// var x = 2;
 
-// var y = "Apple";
+$('.buttn1').hover(function(){
+	$(this).addClass('active');
+}, function(){
+	$(this).removeClass('active');
+});
 
-// var z = 1;
+$('.buttn2').hover(function(){
+	$(this).addClass('active');
+}, function(){
+	$(this).removeClass('active');
+});
 
- 
 
-// alert(x+z); //Will give us 1!
+$('.groupbutton').hover(function(){
+    $(this).addClass('active1');
+}, function(){
+    $(this).removeClass('active1');
+});
 
-// alert(x+y+z);//Will give us "2Apple1", whatever that means.
+
+
+});
+

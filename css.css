@@ -14,16 +14,28 @@
 }
 
 
-.bttn {
+.bttn1 {
 	border: 1px solid;
 	border-radius: 2px;
 	height: 80px;
-	width: 180px;
-	display: inline-block;
-	margin-left: 5px;
-	margin-top: 10px;
-	margin-right: 10px;
+	width: 220px;
+    
+	float: left;
 	background-color: #e74c3c
+}
+
+.bttn2 {
+	border: 1px solid;
+	border-radius: 2px;
+	height: 80px;
+	width: 220px;
+	
+	float: right;
+	background-color: #e74c3c
+}
+
+.bttn p{
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -56,5 +68,16 @@
 	height: 193px;
 	width: 193px;
 	display: inline-block;
+}
+
+
+
+
+.active{
+   background-color: #e74c3c;
+}
+
+.active1{
+   background-color: #e74c3c;
 }
 
