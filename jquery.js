@@ -1,4 +1,4 @@
-$('#timer').text('Hi I am replace');
+document.write('lololololo');
 
 
 // $(document).ready(function(){
