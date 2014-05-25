@@ -1,9 +1,31 @@
 .main_container {
 	border: 1px solid blue;
-	height: 700px;
+	height: 900px;
 	width: 700px;
 	margin: auto;
 }
+
+.bttn_container {
+	border: 1px solid;
+	height: 100px;
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+
+.bttn {
+	border: 1px solid;
+	border-radius: 2px;
+	height: 80px;
+	width: 180px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #e74c3c
+}
+
 
 
 .top_row {
@@ -11,7 +33,7 @@
 	height: 200px;
 	width: 600px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .mid_row {
@@ -35,3 +57,4 @@
 	width: 193px;
 	display: inline-block;
 }
+
