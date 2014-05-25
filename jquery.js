@@ -35,23 +35,21 @@
 
 $(document).ready(function(){
 
-
-
-$('.bttn1').click(function(){
-  var block_colors = ["sky blue","red","orange","teal","yellow",
-  "midnight blue","maddang","gray","purple"];
-  var rand = Math.floor(Math.random() * 10);
-  $("#colors").text(block_colors[rand]);
-});
-
 var count=4;
+
+var correct = false;
+var wrongClick = false;
 
 var counter=setInterval(timer, 500); //1000 will  run it every 1 second
 
 function timer()
 {
-  count=count-1;
-  if (count <= 0)
+  if (correct == true){
+  	count = 4 ;
+  }else{count=count-1;}
+  
+  
+  if (count <= -1)
   {
      clearInterval(counter);
      //counter ended, do something here
@@ -74,6 +72,15 @@ $('#block2').hover(function(){
 }, function(){
 	$(this).removeClass('active1');
 	});
+
+if (count == -1){
+document.getElementById('.block2').style.visibility = "hidden";
+}
+
+if (wrongClick == 1){
+  document.getElementById('.block2').style.visibility = "hidden";
+}
+
 });
 
 
