@@ -35,6 +35,15 @@
 
 $(document).ready(function(){
 
+
+
+$('.bttn1').click(function(){
+  var block_colors = ["sky blue","red","orange","teal","yellow",
+  "midnight blue","maddang","gray","purple"];
+  var rand = Math.floor(Math.random() * 10);
+  $("#colors").text(block_colors[rand]);
+});
+
 var count=4;
 
 var counter=setInterval(timer, 500); //1000 will  run it every 1 second
