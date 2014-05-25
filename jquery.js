@@ -1,4 +1,4 @@
-document.write('lololololo');
+
 
 
 // $(document).ready(function(){
@@ -33,11 +33,39 @@ document.write('lololololo');
 
 
 
+$(document).ready(function(){
 
+var count=4;
 
+var counter=setInterval(timer, 500); //1000 will  run it every 1 second
 
+function timer()
+{
+  count=count-1;
+  if (count <= 0)
+  {
+     clearInterval(counter);
+     //counter ended, do something here
+     return;
+  }
 
+  document.getElementById("timer").innerHTML=count + " seconds"; // watch for spelling
+}
 
+$('#block1').hover(function(){
+	  $(this).addClass('active');
+
+}, function(){
+	$(this).removeClass('active');
+});
+
+$('#block2').hover(function(){
+	$(this).addClass('active1');
+
+}, function(){
+	$(this).removeClass('active1');
+	});
+});
 
 
 
@@ -56,9 +84,5 @@ document.write('lololololo');
 // 		})
 // 		current = current ? 0 : 1
 // 	}, 500)
-
-<<<<<<< HEAD
-=======
 	
 // })
->>>>>>> 2292072e850dcf3621c575cf083569a2f348246f
