@@ -14,6 +14,18 @@ $('#block2').hover(function(){
 	$(this).removeClass('active1');
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 
