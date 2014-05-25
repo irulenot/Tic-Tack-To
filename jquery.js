@@ -1,24 +1,23 @@
 $(document).ready(function(){
 
-
-$('.buttn1').hover(function(){
-	$(this).addClass('active');
+$('#block1').hover(function(){
+	  $(this).addClass('active');
 }, function(){
 	$(this).removeClass('active');
 });
 
-$('.buttn2').hover(function(){
-	$(this).addClass('active');
+$('#block2').hover(function(){
+	$(this).addClass('active1');
 }, function(){
-	$(this).removeClass('active');
+	$(this).removeClass('active1');
 });
 
 
-$('.groupbutton').hover(function(){
-    $(this).addClass('active1');
-}, function(){
-    $(this).removeClass('active1');
-});
+//$('.groupbutton').hover(function(){
+//    $(this).addClass('active1');
+//}, function(){
+//    $(this).removeClass('active1');
+//});
 
 
 
@@ -53,9 +52,5 @@ $('.groupbutton').hover(function(){
 // 		})
 // 		current = current ? 0 : 1
 // 	}, 500)
-
-<<<<<<< HEAD
-=======
 	
 // })
->>>>>>> 2292072e850dcf3621c575cf083569a2f348246f
