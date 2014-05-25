@@ -62,11 +62,12 @@
 }
 
 .block {
-	border: 2px solid red;
 	border-radius: 10px;
 	height: 193px;
 	width: 193px;
 	float: left;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 #block1 {
@@ -108,13 +109,83 @@
 #word1 {
 	text-align: center;
 	font-size: 30px;
-	font-family: "comic-sans";
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	margin-top: 50%;
 	top: -30px;
 	position: relative;
-
 }
 
+#word2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word4 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word5 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word6 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word7 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word8 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
+
+#word9 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 50%;
+	top: -30px;
+	position: relative;
+}
 
 
 .active{
@@ -128,3 +199,4 @@
 .red {
 	color: #ff0000;
 }
+

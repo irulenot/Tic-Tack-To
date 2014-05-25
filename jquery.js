@@ -54,3 +54,8 @@ $('.groupbutton').hover(function(){
 // 		current = current ? 0 : 1
 // 	}, 500)
 
+<<<<<<< HEAD
+=======
+	
+// })
+>>>>>>> 2292072e850dcf3621c575cf083569a2f348246f
