@@ -1,28 +1,31 @@
-$(document).ready(function(){
+$('#timer').text('Hi I am replace');
 
 
-$('.buttn1').hover(function(){
-	$(this).addClass('active');
-}, function(){
-	$(this).removeClass('active');
-});
-
-$('.buttn2').hover(function(){
-	$(this).addClass('active');
-}, function(){
-	$(this).removeClass('active');
-});
+// $(document).ready(function(){
 
 
-$('.groupbutton').hover(function(){
-    $(this).addClass('active1');
-}, function(){
-    $(this).removeClass('active1');
-});
+// $('.buttn1').hover(function(){
+// 	$(this).addClass('active');
+// }, function(){
+// 	$(this).removeClass('active');
+// });
+
+// $('.buttn2').hover(function(){
+// 	$(this).addClass('active');
+// }, function(){
+// 	$(this).removeClass('active');
+// });
+
+
+// $('.groupbutton').hover(function(){
+//     $(this).addClass('active1');
+// }, function(){
+//     $(this).removeClass('active1');
+// });
 
 
 
-});
+// });
 
 
 
