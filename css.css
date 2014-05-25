@@ -1,12 +1,12 @@
 .main_container {
-	border: 1px solid blue;
+	border: 1px solid none;
 	height: 900px;
 	width: 700px;
 	margin: auto;
 }
 
 .bttn_container {
-	border: 1px solid;
+	border: 1px solid none;
 	height: 100px;
 	width: 600px;
 	margin: auto;
@@ -19,11 +19,10 @@
 	border-radius: 10px;
 	height: 80px;
 	width: 220px;
-    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     text-align: center;
 	float: left;
-	background-color: #e74c3c
+	background-color:CC9966
 }
 
 .bttn2 {
@@ -35,16 +34,23 @@
 	font-size: 25px;
     text-align: center;
 	float: right;
-	background-color: #e74c3c
+	background-color: CC9966
 }
 
 
-.bttn p{
+#colors{
     font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-top: 20px;
+
+}
+
+#timer{
+	margin-top: 25px;
 }
 
 .top_row {
-	border: 1px solid green;
+	border: 1px solid none;
 	height: 200px;
 	width: 600px;
 	margin: auto;
@@ -52,14 +58,14 @@
 }
 
 .mid_row {
-	border: 1px solid green;
+	border: 1px solid none;
 	height: 200px;
 	width: 600px;
 	margin: auto;
 }
 
 .bottm_row {
-	border: 1px solid green;
+	border: 1px solid none;
 	height: 200px;
 	width: 600px;
 	margin: auto;
@@ -192,13 +198,44 @@
 }
 
 
-.active{
-   background-color: #2980b9;
+.active {
+   background-color: #2980b9!important;
 }
 
-.active1{
-   background-color: #c0392b;
+.active1 {
+   background-color: #980000!important;
 }
+
+.active2 {
+   background-color: #e67e22!important;
+}
+
+
+.active3 {
+	background-color: #2ecc71!important;
+}
+
+
+.active4 {
+	background-color: #f39c12!important;
+}
+
+.active5 {
+	background-color: #34495e!important;
+}
+
+.active6 {
+	background-color: 99FF99!important;
+}
+
+.active7 {
+	background-color: #7f8c8d!important;
+}
+
+.active8 {
+	background-color: #9b59b6!important;
+}
+
 
 .red {
 	color: #ff0000;
