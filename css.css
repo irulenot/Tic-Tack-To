@@ -1,5 +1,37 @@
-#line {
-	border: 1px solid;
-	height: 900px;
-	width: 210px;
+.main_container {
+	border: 1px solid orange;
+	height: 700px;
+	width: 700px;
+	margin: auto;
+}
+
+
+.top_row {
+	border: 1px solid green;
+	height: 200px;
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.mid_row {
+	border: 1px solid green;
+	height: 200px;
+	width: 600px;
+	margin: auto;
+}
+
+.bottm_row {
+	border: 1px solid green;
+	height: 200px;
+	width: 600px;
+	margin: auto;
+}
+
+.block {
+	border: 1px solid red;
+	border-radius: 5px;
+	height: 195px;
+	width: 195px;
+	display: inline-block;
 }
