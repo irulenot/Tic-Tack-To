@@ -68,7 +68,6 @@ $('#block2').hover(function(){
 });
 
 
-
 //var block_colors = {"","","","","","","","",""}
 
 // function colorChange(){
