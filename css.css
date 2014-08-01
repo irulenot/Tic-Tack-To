@@ -1,10 +1,9 @@
 .main_container {
 	border: 1px solid none;
-	border-radius: 10px;
 	height: 720px;
-	width: 700px;
+	width: 100%;
 	margin: auto;
-	background-color: #fff;
+	background-color: #674172;
 	/*#b7ddf3;*/
 	/*#b7ddf3;*/
 
@@ -23,7 +22,7 @@
 
 .bttn1 {
 	border: 1px solid none;
-	border-radius: 20px;
+	border-radius: 10px;
 	height: 80px;
 	width: 200px;
     font-size: 25px;
@@ -35,7 +34,7 @@
 
 .bttn2 {
 	border: 1px solid none;
-	border-radius: 20px;
+	border-radius: 10px;
 	height: 80px;
 	width: 200px;
 	font-size: 25px;
@@ -53,7 +52,7 @@
 }
 
 #timer{
-	margin-top: 25px;
+	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -80,13 +79,13 @@
 }
 
 .block {
-	border-radius: 20px;
+	border-radius: 10px;
 	height: 173px;
 	width: 173px;
 	float: left;
 	margin-right: 2px;
 	margin-left: 2px;
-	opacity: 1;
+	opacity: 0.6;
 }
 
 #block1 {
@@ -94,7 +93,7 @@
 }
 
 #block2 {
-	background-color: #CF000F;
+	background-color: #F22613;
 }
 
 #block3 {
@@ -120,7 +119,8 @@
 }
 
 #block8 {
-	background-color: #ABB7B7;
+	background-color: #6c6c6c;
+	/*#ABB7B7;*/
 }
 
 #block9 {
@@ -136,5 +136,6 @@
 	margin-top: 50%;
 	top: -25px;
 	position: relative;
+	color: #fff;
 }
 
