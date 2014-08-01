@@ -15,18 +15,18 @@
 
 
 .bttn1 {
-	border: 1px solid;
+	border: 1px solid none;
 	border-radius: 10px;
 	height: 80px;
 	width: 220px;
     font-size: 30px;
     text-align: center;
 	float: left;
-	background-color:CC9966
+	background-color: #CC9966;
 }
 
 .bttn2 {
-	border: 1px solid;
+	border: 1px solid none;
 	border-radius: 10px;
 	height: 80px;
 	width: 220px;
@@ -34,7 +34,7 @@
 	font-size: 25px;
     text-align: center;
 	float: right;
-	background-color: CC9966
+	background-color: #CC9966;
 }
 
 
@@ -78,78 +78,44 @@
 	float: left;
 	margin-right: 2px;
 	margin-left: 2px;
+	opacity: 1;
 }
 
-.sky_blue {
-	background-color: #59ABE3;
+#block1 {
+	background-color: 
+	#59ABE3;
 }
 
-.sky_blue:hover {
-	background-color: #2980b9!important;
-}
-
-.red {
+#block2 {
 	background-color: #CF000F;
 }
 
-.red:hover {
-	background-color: #980000!important;
-}
-
-.orange {
+#block3 {
 	background-color: #FF6600;
 }
 
-.orange:hover {
-	background-color: #e67e22!important;
-}
-
-.teal {
+#block4 {
 	background-color: #00B16A;
 }
 
-.teal:hover {
-	background-color: #2ecc71!important;
-}
-
-.yellow {
+#block5 {
 	background-color: #F7CA18;
 }
 
-.yellow:hover {
-	background-color: #f39c12!important;
-}
-
-.midnight_blue {
+#block6 {
 	background-color: #22313F;
 }
 
-.midnight_blue:hover {
-	background-color: #f39c12!important;
-}
-
-.maddang {
+#block7 {
 	background-color: #C8F7C5;
 }
 
-.maddang:hover {
-	background-color: 99FF99!important;
-}
-
-.gray {
+#block8 {
 	background-color: #ABB7B7;
 }
 
-.gray:hover {
-	background-color: #7f8c8d!important;
-}
-
-.purple {
+#block9 {
 	background-color: #8E44AD;
-}
-
-.purple {
-	background-color: #9b59b6!important;
 }
 
 .word {
@@ -161,40 +127,3 @@
 	position: relative;
 }
 
-/*.active {
-   background-color: #2980b9!important;
-}
-
-.active1 {
-   background-color: #980000!important;
-}
-
-.active2 {
-   background-color: #e67e22!important;
-}
-
-
-.active3 {
-	background-color: #2ecc71!important;
-}
-
-
-.active4 {
-	background-color: #f39c12!important;
-}
-
-.active5 {
-	background-color: #34495e!important;
-}
-
-.active6 {
-	background-color: 99FF99!important;
-}
-
-.active7 {
-	background-color: #7f8c8d!important;
-}
-
-.active8 {
-	background-color: #9b59b6!important;
-}*/
