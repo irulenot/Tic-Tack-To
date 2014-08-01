@@ -19,10 +19,11 @@
 	border-radius: 10px;
 	height: 80px;
 	width: 220px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 	float: left;
-	background-color: #CC9966;
+	background-color: #ede8e4;
+	/*#CC9966;*/
 }
 
 .bttn2 {
@@ -30,16 +31,15 @@
 	border-radius: 10px;
 	height: 80px;
 	width: 220px;
-	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
     text-align: center;
 	float: right;
-	background-color: #CC9966;
+	background-color: #ede8e4;
 }
 
 
 #colors{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     margin-top: 20px;
 
@@ -82,8 +82,7 @@
 }
 
 #block1 {
-	background-color: 
-	#59ABE3;
+	background-color: #59ABE3;
 }
 
 #block2 {
@@ -103,11 +102,13 @@
 }
 
 #block6 {
-	background-color: #22313F;
+	background-color: #f86767;
+	/*#22313F;*/
 }
 
 #block7 {
-	background-color: #C8F7C5;
+	background-color: #7ec9b1;
+	/*#C8F7C5;*/
 }
 
 #block8 {
@@ -115,13 +116,15 @@
 }
 
 #block9 {
-	background-color: #8E44AD;
+	background-color: #c091e6;
+	/*#8E44AD;*/
 }
 
 .word {
+	border: 1px solid none;
 	text-align: center;
 	font-size: 30px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 50%;
 	top: -30px;
 	position: relative;
