@@ -31,6 +31,15 @@ $(document).ready(function(){
   }
 
   /**
+  @title    Change block word
+  @param    [block] = target block, [colorName] = word changed to
+  @returns  Modifies html block word
+  */
+  function wordChange (block, colorName){
+    $("#" + block + " p").html(colorName);
+  }
+
+  /**
   @title    Get random number
   @param    [num] = determines range of random numbers
   @returns  Random number
@@ -57,6 +66,23 @@ $(document).ready(function(){
     }
   }
 
+  /**
+  @title    Random word shuffle
+  @param    Uses (colorName) and (block)
+  @returns  Changes cnames on blocks at random with no overlap
+  */
+  function wordShuffle(){
+    for(i = 0; i < 9; i++){
+      chosen = getRandom(8-i);
+      container = colorName[chosen];
+
+      wordChange(block[i],container);
+
+      colorName[chosen] = colorName[8-i];
+      colorName[8-i] = container;
+    }
+  }
+
   //To do:
     //generate random word
     //randomize words
@@ -64,6 +90,9 @@ $(document).ready(function(){
     //verification ends with end game or increment of time
 
   colorShuffle();
+  wordShuffle();
+
+  // wordChange(block[0], colorName[2]);
 
 });
 
