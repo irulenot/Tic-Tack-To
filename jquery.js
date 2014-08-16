@@ -20,6 +20,22 @@ $(document).ready(function(){
     document.getElementById(block).style.backgroundColor = colorCode;
   } //example of how to call: colorChange(block[0], colorCode[3]);
 
+  function getRandom(num) {
+    var num = "0" + Math.random() * num;
+    return num[1];
+  }
+
+    function colorShuffle(){
+    for(i = 0; i < 9; i++){
+      chosen = getRandom(8-i); //(random #) 5
+      container = colorCode[chosen]; // holds random color code
+
+      colorChange(block[i],container); // makes block i [0] turn into random color [5]
+
+      colorCode[chosen] = colorCode[8-i];
+      colorCode[8-i] = container;
+    }
+  }
 
   //SPECS:
 
@@ -28,10 +44,7 @@ $(document).ready(function(){
   //click verification of word
   //verification ends with end game or increment of time
 
-
-  
-
-
+  colorShuffle();
 
 });
 
