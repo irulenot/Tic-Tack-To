@@ -20,6 +20,7 @@ $(document).ready(function(){
   var colorName = ["Blue","Red","Orange","Green","Yellow","Peach","Lime","Gray","Purple"];
   var colorCode = ["#59ABE3","#F22613","#FF6600","#00B16A","#F7CA18","#f86767","#7ec9b1","#6c6c6c","#c091e6"]
   var block     = ["block1","block2","block3","block4","block5","block6","block7","block8","block9"];
+  var gameState = ["Title","Game","Scoreboard"];
 
   /**
   @title    Change block color
@@ -69,7 +70,7 @@ $(document).ready(function(){
   /**
   @title    Random word shuffle
   @param    Uses (colorName) and (block)
-  @returns  Changes cnames on blocks at random with no overlap
+  @returns  Changes names on blocks at random with no overlap
   */
   function wordShuffle(){
     for(i = 0; i < 9; i++){
@@ -83,14 +84,32 @@ $(document).ready(function(){
     }
   }
 
+  /**
+  @title    Target word selection
+  @param    Uses (colorName) to find random work
+  @returns  Gives you a random color name
+  */
+  function targetWord(){
+    chosen = getRandom(8);
+    return colorName[chosen]
+  }
+
+  /**
+  @title    Random word shuffle
+  @param    Uses (colorName) and (block)
+  @returns  Changes names on blocks at random with no overlap
+  */
+  function changeTarget(){
+    $("#colors").html(targetWord());
+  }
+
   //To do:
-    //generate random word
-    //randomize words
     //click verification of word
     //verification ends with end game or increment of time
 
   colorShuffle();
   wordShuffle();
+  changeTarget();
 
   // wordChange(block[0], colorName[2]);
 
