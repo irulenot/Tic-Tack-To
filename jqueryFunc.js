@@ -22,13 +22,9 @@ $(document).ready(function(){
 
   changeTarget();
 
-  if ($(".timer").html() == "Start"){
-    alert($(".timer").html());
-  }
-
-  if (gameState == gameStage[0]){
-    startClick();
-  }
+    $('.timer').click(function(){
+      onTimerClicked();
+    });
 });
 
 /*------------------------------------------------
@@ -158,15 +154,18 @@ function changeTime(sec){
 @title    Game start
 @purpose  Starts game by changing gameState, turning on the time, and 
 */
-function startClick(){
-  $('.timer').click(function(){
-      allShuffle();
-      changeTime(2);
-      gameState = gameStage[1];
-    });
+function onTimerClicked(){
+  if (gameState == gameStage[0]){
+    allShuffle();
+    changeTime(2);
+    gameState = gameStage[1];
+  }   
 }
 
 /*------------------------------------------------
                     GAME LOGIC
 ------------------------------------------------*/
 
+if ($(".timer").html() == "Start"){
+    alert($(".timer").html());
+}
